@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background: white;
+  min-height: 100vh;
+  border: solid;
+  border-color: #FF5100;
+  border-width: 10px;
+}
+.content{
+  max-width: 600px;
+  margin: 0 auto;
+}
+#aboutp{
+  text-align: justify;
+}
+.modii{
+  height : 160px;
+  width: 165px;
+  border-radius:15%;
+  position: relative;
+  top: 7.5px;
+  left: 5px;
+  padding-left: 5px;
+}
+.top_section{
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#name{
+  color: #FF5100;
+  text-transform: uppercase;
+}
+.name{
+  text-align: center;
+  font-size: 12px;
+  
+}
+.aboutbody{
+ margin: 50px 18px 40px 20px;
+}
+#linkwiki{
+  text-align: end;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  
+}
+#about{
+  margin-left: 16px;
+}
+#hmodi{
+  color: #FFA307;
+}
